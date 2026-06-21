@@ -8,6 +8,7 @@ import Fruits from "./components/Fruits";
 import Conditional from "./components/Conditional";
 import Message from "./components/Message";
 import Counter from "./components/Counter";
+import Form from "./components/Form";
 function App() {
   //const  person ={name:'John', city:'Los Angeles',emoji:'😎', SeatNo: [1,2,3,4,5] }
   //return <Hey person={person} />;
@@ -16,7 +17,8 @@ function App() {
       {/* <Fruits /> */}
       {/* <Conditional/> */}
       {/* <Message /> */}
-      <Counter />
+      {/* <Counter /> */}
+      <Form />
     </div>
   );
 }
